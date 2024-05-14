@@ -1,0 +1,2 @@
+export const getDatabaseUri = () => process.env.MONGO_URI ? process.env.MONGO_URI : "mongodb://localhost:27017/spork";
+export const getEnvironment = () => process.env.ENV ? process.env.ENV : "PRODUCTION"
